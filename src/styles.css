@@ -93,3 +93,19 @@ footer {
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
 }
+
+.parent-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.child-div {
+  flex: 1;
+  border: 10px dotted black;
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    color: blue;
+  }
+}
